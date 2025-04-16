@@ -4,10 +4,10 @@ console.log('Intentando conectar a la base de datos...');
 
 // Crear la conexión a la base de datos
 const connect = mysql.createConnection({
-    host: 'btenul6t3loqljyj28fc-mysql.services.clever-cloud.com',
-    user: 'ut3ebtek2fkoasfs', // Usuario de tu base de datos
-    password: 'MnzlvLsjvdt1rAUj9wIk', // Contraseña de tu base de datos
-    database: 'btenul6t3loqljyj28fc' // Nombre de tu base de datos
+    host: 'b4blgjxplomnu27uw49z-mysql.services.clever-cloud.com',
+    user: 'uzstb20ygywkkojb', // Usuario de tu base de datos
+    password: 'ZGF0pQKCt5jfxE03v7Cm', // Contraseña de tu base de datos
+    database: 'b4blgjxplomnu27uw49z' // Nombre de tu base de datos
 });
 // Verificar la conexión
 connect.connect((err) => {
