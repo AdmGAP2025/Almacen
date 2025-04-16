@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Almacén</title>
+    <link rel="stylesheet" href="../css/entrada.css"> 
+</head>
+<body>
+    
+    <header>
+        <h1>Gestor de Almacén SYATEC</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index">Inicio</a></li>
+            <li><a href="/agregar_entrada">Agregar un registro de entrada</a></li>
+            <li><a href="/salida">Registro de salida</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="product-list2">
+            <h2>REGISTRO DE ENTRADA</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="th-id">ID <span class="sort-arrow">▲</span></th>
+                        <th id="th-nombre">Nombre <span class="sort-arrow">▲</span></th>
+                        <th id="th-trabajador">Trabajador <span class="sort-arrow">▲</span></th>
+                        <th id="th-cantidad">Cantidad <span class="sort-arrow">▲</span></th>
+                        <th id="th-fecha">Fecha </th>
+                        <th>Accion</th>
+                       
+                    </tr>
+                </thead>
+                <tbody id="mostrar">
+                
+                
+                </tbody>
+            </table>
+        </section>
+    </main>
+       <script  src="../js/registroEntrada.js"></script>
+   
+</body>
+</html>
